@@ -8,10 +8,10 @@ import dagger.Provides;
 
 
 @Module
-public class SearchActivityModule {
+public class SplashActivityModule {
 
     @Provides
-    SplashViewModel provideSearchViewModel(SchedulerProvider schedulerProvider) {
+    SplashViewModel provideSplashViewModel(SchedulerProvider schedulerProvider) {
         return new SplashViewModel(schedulerProvider);
     }
 
